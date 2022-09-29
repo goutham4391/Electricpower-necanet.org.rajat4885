@@ -1,0 +1,88 @@
+.hawk-results__listing {
+    display: block;
+}
+
+.hawk-results__item {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+.hawk-results__item-name {
+    width: 100% !important;
+    text-align: left !important;
+}
+
+@media only screen and (min-width: 62em) {
+    .hawk-facet-rail {
+        width: 420px;
+        min-width: 420px;
+    }
+}
+
+.hawk-autosuggest-menu__list {
+    overflow-y: initial;
+}
+
+/*  IE11  */
+select::-ms-expand {
+    border: none;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: -10px;
+}
+
+.recommendations-container.slider-enabled {
+    overflow: hidden;
+}
+
+
+.hawk-preview__results_tabs .hawk-preview__results_tabs__nav-tabs {
+	 background: #f7f7f7;
+}
+
+.hawk-preview__results_tabs ul .hawk-preview__results_tabs__nav-item {
+    background-color: #e3e0df;
+}
+.hawk-preview__results_tabs ul .hawk-preview__results_tabs__nav-item,
+.hawk-preview__results_tabs ul .hawk-preview__results_tabs__nav-item a {
+    position: relative;
+    font-size: 0.938em;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(51,51,51);
+    cursor: pointer;
+}
+ .hawk-preview__results_tabs ul .hawk-preview__results_tabs__nav-item.active {
+	 color: white;
+	 background-color: #f37622;
+}
+.hawk-preview__results_tabs ul .hawk-preview__results_tabs__nav-item.active a {
+	color: white;
+}
+.hawk-preview__results_tabs ul .hawk-preview__results_tabs__nav-item a {
+	 border: 0;
+	 cursor: pointer;
+}
+ .hawk-preview__results_tabs ul .hawk-preview__results_tabs__nav-item a:hover, .hawk-preview__results_tabs ul .hawk-preview__results_tabs__nav-item a:focus {
+	 border: 0;
+}
+ .hawk-preview__results_tabs .hawk-preview__results_tabs__nav-tabs {
+	 border-bottom: 1px solid #dee2e6;
+}
+ .hawk-preview__results_tabs .hawk-preview__results_tabs__nav {
+	 display: -ms-flexbox;
+	 display: flex;
+	 -ms-flex-wrap: wrap;
+	 flex-wrap: wrap;
+	 padding-left: 0;
+	 margin-bottom: 0;
+	 list-style: none;
+}
+ .hawk-preview__results_tabs .hawk-preview__results_tabs__nav-item {
+	 margin: 0.5rem;
+}
+ .hawk-preview__results_tabs .hawk-preview__results_tabs__nav-link {
+	 display: block;
+	 padding: 0.5rem 1rem;
+}
